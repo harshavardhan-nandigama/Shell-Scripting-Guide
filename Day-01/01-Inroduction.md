@@ -4,10 +4,10 @@ Shell Scripting is like handing your computer a checklist. You write a bunch of 
 
 **Why I’m Learning Shell Scripting ?**
 
-**Saves Time:** Automating repetitive tasks feels like magic! 
-**Career Boost:** It’s a key skill for roles like DevOps Engineer, System Admin, and Cloud Engineer. 
-**System Insights:** It’s a window into how Linux systems tick under the hood. 
-**Mini-Programs:** I can write scripts to install software, back up files, monitor logs, and more. 
+- **Saves Time:** Automating repetitive tasks feels like magic! 
+- **Career Boost:** It’s a key skill for roles like DevOps Engineer, System Admin, and Cloud Engineer. 
+- **System Insights:** It’s a window into how Linux systems tick under the hood. 
+- **Mini-Programs:** I can write scripts to install software, back up files, monitor logs, and more. 
 
 
  
@@ -22,10 +22,10 @@ Shell Scripting is like handing your computer a checklist. You write a bunch of 
 **Real-Life Examples of Shell Scripts**
 
 1.Testarting servers automatically.
-2. Creating daily backups.
-3. Installing software with one command.
-4. Analyzing logs and saving the results for later.
-5. These practical applications are what excite me most—I can’t wait to build scripts that solve real problems!
+2.Creating daily backups.
+3.Installing software with one command.
+4.Analyzing logs and saving the results for later.
+5.These practical applications are what excite me most—I can’t wait to build scripts that solve real problems!
 
 **What You’ll Find in This Repo**
 
