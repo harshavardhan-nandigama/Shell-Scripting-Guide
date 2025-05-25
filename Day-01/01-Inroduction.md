@@ -9,8 +9,8 @@ Shell Scripting is like handing your computer a checklist. You write a bunch of 
 
      echo "Hello, this is my first shell script!"
 
--**#!/bin/bash** tells the system to use the Bash shell. and
--**echo** prints a message to the screen.
+- **#!/bin/bash** tells the system to use the Bash shell. and
+- **echo** prints a message to the screen.
 
 
 ## Why Shell Scripts ?
