@@ -21,18 +21,34 @@ Shell Scripting is like handing your computer a checklist. You write a bunch of 
 - 4. **Analyzing logs and saving the results for later.**
 - 5. **These practical applications are what excite me most—I can’t wait to build scripts that solve real problems!**
 
-## What You’ll Find in This Repo ?
 
-     Day	Topics Covered
 
-     01	Basics of Shell Scripting
-     02	Variables and Data Types
-     03	Conditional Statements
-     04	Loops and Control Flow
-     05	Colors and Logging
-     06	Functions and Arguments
-     07	Real-World Mini Projects
+ ## What is Shebang (#!) in Shell Script ?
 
-## No Coding Experience? No Problem!
+ **Shebang** is the first line in a shell script that tells the operating system which interpreter to use to run the script.
 
-**I’m starting from zero as a non-IT student, so this repo is 100% beginner-friendly.** If you’re new to coding or IT like me, don’t sweat it—we’re in this together! I’ve designed everything to be step-by-step, so we can build a solid base in automation and DevOps from scratch. 
+      #!/path/to/interpreter '''
+
+
+Common example for Bash:
+
+     #!/bin/bash
+
+
+The **#!** is called the shebang.
+
+The **/bin/bash** part tells the OS to run this script using the Bash shell.
+
+
+## Why Shebang Is Important ?
+
+**Reason**	                                   **Explanation**
+
+- **Interpreter Clarity**          Tells the system which shell (e.g., Bash, Python) to use
+- **Script Portability**	          Ensures consistent behavior across systems
+- **Avoids Errors**	               Prevents unexpected behavior or command errors
+
+**Example shell script**
+
+     \#!/bin/bash
+     echo "Hello, $USER"
