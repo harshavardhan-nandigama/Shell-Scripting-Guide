@@ -4,8 +4,8 @@
 
 The first line in a shell script is usually:
 
-```bash
-#!/bin/bash
+    ```bash
+    #!/bin/bash
 
 
 ## Very Basic Shell Script with Line-by-Line Explanation
