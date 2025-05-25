@@ -41,16 +41,16 @@ Metadata is data about the script. It doesn’t affect how the script runs, but 
     # License: MIT
 
     # Print a welcome message
-    echo "Welcome to my metadata example shell script"
+        echo "Welcome to my metadata example shell script"
 
     # Print hostname
-    echo "Hostname of this system: $(hostname)"
+        echo "Hostname of this system: $(hostname)"
 
     # Print current user
-    echo "You are logged in as: $USER"
+        echo "You are logged in as: $USER"
 
     # Print current date
-    echo "Today is: $(date)"
+        echo "Today is: $(date)"
 
 **Output for example shellscript**
 
