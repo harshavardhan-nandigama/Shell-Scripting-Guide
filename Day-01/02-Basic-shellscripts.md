@@ -1,7 +1,7 @@
 
 
 
-2. Each Script Should Have a Markdown Explanation
+## Each Script Should Have....
 For every .sh file, create a .md (markdown) file with:
 
 🔹 Title
@@ -15,30 +15,39 @@ For every .sh file, create a .md (markdown) file with:
 🔹 Line-by-line Explanation
 
 🔹 Output (Optional)
+
+
 ##  What is Metadata in a Shell Script?
 
-The first line in a shell script is usually:
+Metadata is data about the script. It doesn’t affect how the script runs, but it helps developers and system administrators understand what the script is, who wrote it, and why.
+
+ **Metadata in Shell Scripts - Example**
 
     #!/bin/bash
+    # Author: Harshavardhan Nandigama
+    # Date: 2025-05-25
+    # Description: This script shows the use of metadata and prints system info
+    # Version: 1.0
+    # License: MIT
 
 
-## Very Basic Shell Script with Line-by-Line Explanation
+## Example Shell Sricpt
 
-    
-    !/bin/bash
-    # This is the shebang (metadata) that specifies the interpreter
+    #!/bin/bash
+    # Author: Harshavardhan Nandigama
+    # Date: 2025-05-25
+    # Description: This script shows the use of metadata and prints system info
+    # Version: 1.0
+    # License: MIT
 
-# Print a welcome message
-echo "Welcome to Shell Scripting!"
+    # Print a welcome message
+    echo "Welcome to my metadata example shell script"
 
-# Define a variable
-name="Harsha"
+    # Print hostname
+    echo "Hostname of this system: $(hostname)"
 
-# Print the variable using echo
-echo "Hello, $name!"
+    # Print current user
+    echo "You are logged in as: $USER"
 
-# Display the current date and time
-date
-
-# Print script completion message
-echo "Script executed successfully."
+    # Print current date
+    echo "Today is: $(date)"
