@@ -27,19 +27,19 @@ Shell Scripting is like handing your computer a checklist. You write a bunch of 
 - 4.Analyzing logs and saving the results for later.
 - 5.These practical applications are what excite me most—I can’t wait to build scripts that solve real problems!
 
-**What You’ll Find in This Repo**
+## What You’ll Find in This Repo
 
 I’ve planned out my learning journey with daily topics to build a strong Shell Scripting foundation. Here’s the lineup:
 
 
-Day	Topics Covered
-01	Basics of Shell Scripting
-02	Variables and Data Types
-03	Conditional Statements
-04	Loops and Control Flow
-05	Colors and Logging
-06	Functions and Arguments
-07	Real-World Mini Projects
+     Day	Topics Covered
+     01	Basics of Shell Scripting
+     02	Variables and Data Types
+     03	Conditional Statements
+     04	Loops and Control Flow
+     05	Colors and Logging
+     06	Functions and Arguments
+     07	Real-World Mini Projects
 
 **No Coding Experience? No Problem!**
 
