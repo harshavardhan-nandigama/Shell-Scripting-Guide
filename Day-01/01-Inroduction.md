@@ -27,7 +27,7 @@ Shell Scripting is like handing your computer a checklist. You write a bunch of 
 
  **Shebang** is the first line in a shell script that tells the operating system which interpreter to use to run the script.
 
-      #!/path/to/interpreter '''
+      #!/path/to/interpreter
 
 
 Common example for Bash:
@@ -50,5 +50,5 @@ The **/bin/bash** part tells the OS to run this script using the Bash shell.
 
 **Example shell script**
 
-     \#!/bin/bash
+     #!/bin/bash
      echo "Hello, $USER"
