@@ -63,7 +63,7 @@ It helps others understand the purpose and origin of the script.
 
 ---
 
-## 🔍 Output Example
+## Output Example
 
 ```
 Welcome to my metadata example shell script
