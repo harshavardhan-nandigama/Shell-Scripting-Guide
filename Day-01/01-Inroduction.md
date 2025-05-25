@@ -32,7 +32,8 @@ Shell Scripting is like handing your computer a checklist. You write a bunch of 
 I’ve planned out my learning journey with daily topics to build a strong Shell Scripting foundation. Here’s the lineup:
 
 
-     **Day	Topics Covered**
+     Day	Topics Covered
+     
      01	Basics of Shell Scripting
      02	Variables and Data Types
      03	Conditional Statements
@@ -41,6 +42,6 @@ I’ve planned out my learning journey with daily topics to build a strong Shell
      06	Functions and Arguments
      07	Real-World Mini Projects
 
-**No Coding Experience? No Problem!**
+## No Coding Experience? No Problem!
 
-I’m starting from zero as a non-IT student, so this repo is 100% beginner-friendly. If you’re new to coding or IT like me, don’t sweat it—we’re in this together! I’ve designed everything to be step-by-step, so we can build a solid base in automation and DevOps from scratch. 
+**I’m starting from zero as a non-IT student, so this repo is 100% beginner-friendly.** If you’re new to coding or IT like me, don’t sweat it—we’re in this together! I’ve designed everything to be step-by-step, so we can build a solid base in automation and DevOps from scratch. 
