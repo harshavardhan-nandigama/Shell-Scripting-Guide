@@ -32,7 +32,7 @@ Shell Scripting is like handing your computer a checklist. You write a bunch of 
 I’ve planned out my learning journey with daily topics to build a strong Shell Scripting foundation. Here’s the lineup:
 
 
-     Day	Topics Covered
+     **Day	Topics Covered**
      01	Basics of Shell Scripting
      02	Variables and Data Types
      03	Conditional Statements
