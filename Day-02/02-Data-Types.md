@@ -79,16 +79,16 @@ Even though AGE=25, it’s stored as text. But if you use it in math like $((AGE
 
 **File name suggestion: 01_strings_and_integers.sh**
 
-    #!/bin/bash  # Tells the system to use Bash to run this script
+    '#!/bin/bash'  # Tells the system to use Bash to run this script
 
     # -------- String Variables --------
 
-    NAME="John"       # Assigning a string value to variable NAME
+    ' NAME="John" '       # Assigning a string value to variable NAME
     CITY="Mumbai"     # Another string assigned to CITY
 
     # -------- Integer Variables --------
 
-    NUM1=100          # Storing number 100 in NUM1
+    'NUM1=100'         # Storing number 100 in NUM1
     NUM2=200          # Storing number 200 in NUM2
 
     # -------- Command Substitution --------
