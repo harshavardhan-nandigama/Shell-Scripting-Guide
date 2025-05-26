@@ -4,35 +4,35 @@ Arrays in Bash allow you to store multiple values (like a list). This is useful 
 
 ## Example Script: 01-array-example.sh
 
-`#!/bin/bash`
+    #!/bin/bash
 
-🔹 Shebang line: This tells the system to run the script using the bash shell.
+    🔹 Shebang line: This tells the system to run the script using the bash shell.
 
-`MOVIES=("Court" "HIT3" "PUSHPA2" "Thandel")`
+    MOVIES=("Court" "HIT3" "PUSHPA2" "Thandel")
 
-Array declaration:
-We are creating an array named MOVIES that contains four movie names.
+    Array declaration:
+    We are creating an array named MOVIES that contains four movie names.
 
-Indexing starts from 0.
+    Indexing starts from 0.
 
-MOVIES[0] = "Court", MOVIES[1] = "HIT3", and so on.
+    MOVIES[0] = "Court", MOVIES[1] = "HIT3", and so on.
 
-`echo "First Movie: ${MOVIES[0]}"`
+    echo "First Movie: ${MOVIES[0]}"
 
-Accesses and prints the first movie in the array → Court
-
-
-`echo "Fourth Movie: ${MOVIES[3]}"`
-
-Accesses and prints the fourth movie (index 3) → Thandel
+    Accesses and prints the first movie in the array → Court
 
 
-`echo "Invalid Index: ${MOVIES[4]}"`
+    echo "Fourth Movie: ${MOVIES[3]}"
 
-⚠️ This tries to access index 4 which does not exist, so this will return an empty string.
+    Accesses and prints the fourth movie (index 3) → Thandel
 
 
-`echo "All Movies: ${MOVIES[@]}"`
+    echo "Invalid Index: ${MOVIES[4]}"
 
-${MOVIES[@]} expands to all elements in the array → Court HIT3 PUSHPA2 Thandel
+    ⚠️ This tries to access index 4 which does not exist, so this will return an empty string.
+
+
+    echo "All Movies: ${MOVIES[@]}"
+
+    ${MOVIES[@]} expands to all elements in the array → Court HIT3 PUSHPA2 Thandel
 
