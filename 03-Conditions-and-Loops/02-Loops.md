@@ -1,4 +1,4 @@
-# 🔁Loops
+# 🔁 Loops
 
 Loops in shell scripting are powerful constructs that allow you to repeat a set of commands multiple times. They are commonly used in automation, monitoring, installation, and repetitive tasks.
 
