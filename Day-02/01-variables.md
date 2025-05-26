@@ -29,6 +29,7 @@ System-defined variables (like $HOME, $USER)
     PERSON2=Musk   # Declares another variable PERSON2 with value "Musk"
 
     # Using the variables inside echo to simulate a conversation
+    
     echo "$PERSON1:: Hey $PERSON2, How are you?"
     echo "$PERSON2:: Hello $PERSON1, I am fine. How are you doing?"
     echo "$PERSON1:: I am fine too. What's up?"
@@ -51,6 +52,7 @@ $VARIABLE_NAME is how we refer to a variable.
     PERSON2=$2  # Assigns the second argument to PERSON2
 
     # Using the inputs dynamically
+
     echo "$PERSON1:: Hey $PERSON2, How are you?"
     echo "$PERSON2:: Hello $PERSON1, I am fine. How are you doing?"
     echo "$PERSON1:: I am fine too. What's up?"
@@ -80,4 +82,21 @@ $VARIABLE_NAME is how we refer to a variable.
 **read** command is used to take user input.
 
 **-s** option hides the input (ideal for passwords or PINs).
+
+## Example Script 04: Simple Math Using Variables
+
+    #!/bin/bash
+
+    NUM1=10        # Assigning number 10 to variable NUM1
+    NUM2=5         # Assigning number 5 to variable NUM2
+
+    SUM=$((NUM1 + NUM2))  # Performing addition using arithmetic expansion
+
+    echo "Sum of $NUM1 and $NUM2 is: $SUM"
+
+**📌 Key Takeaway:**
+
+Use $((expression)) to perform arithmetic in shell.
+
+You can do +, -, *, /, and % inside this.
 
