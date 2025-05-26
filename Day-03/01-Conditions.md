@@ -20,9 +20,7 @@ Common Operators in Conditions
 
     #!/bin/bash  # This tells the system to use bash shell to run this script
 
-
     NUMBER=$1     # The first command-line argument is stored in the variable NUMBER
-
 
     # Below we are using an 'if' condition to compare NUMBER
 
@@ -40,9 +38,7 @@ Common Operators in Conditions
 
     NUMBER=$1  # Accept the first argument from the command line
 
-
     # Use modulus operator % to find remainder
-    
 
     if [ $((NUMBER % 2)) -eq 0 ]  # If remainder is 0, it's even
     then
