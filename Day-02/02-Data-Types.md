@@ -61,7 +61,7 @@ Bash doesn’t have a real boolean type. Use 0 as true and any non-zero number a
     echo "Success"
     fi
 
-💡 **Final Note**
+ **Note**
 No need to declare a data type in Bash. Just assign a value to a variable.
 
 Use the right syntax **($(( )), ${#VAR}, declare, etc.)** to treat the variable as the type you need.
@@ -115,7 +115,7 @@ Even though AGE=25, it’s stored as text. But if you use it in math like $((AGE
 | **Boolean**           | 🚫 No direct   | Simulated using `0=true`, `1=false` |
 
 
-**Notes:**
+**Final Notes:**
 
 You don’t need to declare types. Bash interprets it based on how you use it.
 
