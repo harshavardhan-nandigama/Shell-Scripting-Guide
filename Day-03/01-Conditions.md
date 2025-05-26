@@ -1,4 +1,4 @@
-# Conditions
+                                            # Conditions
 
 **Conditions (if, else, comparisons)**
 Conditions are one of the core parts of scripting — they help the script make decisions. In shell scripting, we use if, else, elif blocks to check conditions.
