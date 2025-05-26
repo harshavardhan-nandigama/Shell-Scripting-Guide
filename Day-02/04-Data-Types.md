@@ -1,5 +1,6 @@
-## Basics
+# Data-types
 
+## Basics:-
 **String** = Text (default in Bash) → "hello", "123"
 
 **Integer** = Numbers (used in math) → 5, 100
@@ -10,7 +11,7 @@
 
 **Boolean** = Simulated using numbers (0=true, 1=false)
 
-## Data Types in Shell Scripting
+## Data Types in Shell Scripting:-
 
 Data types in shell scripting mean the kind of data a variable can hold — like text, numbers, or a list of items.
 
@@ -21,7 +22,7 @@ But in Bash (shell scripting):
 You don’t need to say, "This is a number" or "This is a string."
 Instead, how you use the variable decides its behavior.
 
-## Explanation of Each Data Type
+## Explanation of Each Data Type:-
 
 **1. String (Default)**
 
