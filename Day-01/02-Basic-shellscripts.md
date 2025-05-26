@@ -1,7 +1,7 @@
 
 
 
-## Each Script Should Have....
+## Each Shell Script Should Have....
 For every .sh file, create a .md (markdown) file with:
 
 🔹 Title
@@ -59,5 +59,5 @@ Metadata is data about the script. It doesn’t affect how the script runs, but 
     Hostname of this system: myhost.local
 
     You are logged in as: harshavardhan
-    
+
     Today is: Sat May 25 19:15:00 IST 2025
