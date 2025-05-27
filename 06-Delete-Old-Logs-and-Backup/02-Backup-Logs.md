@@ -57,9 +57,9 @@ Declares the script to be interpreted using Bash shell.
 - Defaults to 14 days if $3 isn’t provided.
 
 
-    LOGS_FOLDER="/var/log/shellscript-logs"
-    SCRIPT_NAME=$(basename "$0" .sh)
-    LOG_FILE="$LOGS_FOLDER/backup.log"
+        LOGS_FOLDER="/var/log/shellscript-logs"
+        SCRIPT_NAME=$(basename "$0" .sh)
+        LOG_FILE="$LOGS_FOLDER/backup.log"
 
 Sets up paths for script name and log storage.
 
