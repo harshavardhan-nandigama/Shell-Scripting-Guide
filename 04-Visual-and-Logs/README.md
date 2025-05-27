@@ -1,4 +1,4 @@
-# Day4 Practical Learnings (Colors, Logs, Validation, Daily Logs)
+# Day-4 Colors and Logs
 
 📘 Learnings Covered
 
