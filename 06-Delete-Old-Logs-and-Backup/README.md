@@ -22,7 +22,7 @@ Two production-ready Bash scripts for efficient `.log` file **cleanup** and **ba
 
 ---
 
-# 1.Delete Old Logs
+# 1. Delete Old Logs
 
 > Automatically delete `.log` files older than 14 days from a defined directory.
 
