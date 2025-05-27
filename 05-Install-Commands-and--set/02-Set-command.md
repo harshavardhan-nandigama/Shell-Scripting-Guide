@@ -1,4 +1,4 @@
-# set Command
+# Set Command
 
 ## What does set -e do? 
 
