@@ -1,6 +1,6 @@
 # 📅 Day 5 - Install Commands and Set commands
 
-**📘 Learnings Covered - Day 5: Install Commands and Set Command **
+**📘 Learnings Covered - Day 5: Install Commands and Set Command**
 
 | # |       Topic      |                            Description                           |
 | - | ---------------- | ---------------------------------------------------------------- |
