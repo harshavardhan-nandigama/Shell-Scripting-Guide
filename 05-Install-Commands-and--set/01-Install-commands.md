@@ -2,7 +2,9 @@
 
 This script demonstrates how to install a package (e.g., MySQL) using dnf in a shell script with proper validation, logging, and permission checks. It's written to help beginners and non-IT learners understand every line step-by-step.
 
-    Script: Install MySQL with Validation
+## Script: Install MySQL with Validation
+
+    #!/bin/bash
 
 This is called a shebang. It tells the system that this script should be run using the Bash shell.
 
@@ -12,7 +14,8 @@ This is called a shebang. It tells the system that this script should be run usi
 
 - We store it in a variable called USERID to check if the user is root or not.
 
-- Root users always have a user ID of 0.    
+- Root users always have a user ID of 0.   
+
 
     if [ $USERID -ne 0 ]
     then
@@ -21,6 +24,7 @@ This is called a shebang. It tells the system that this script should be run usi
     else
         echo "You are running with root access"
     fi
+
 
 - -ne means "not equal". If user is not root, we:
 
@@ -33,21 +37,31 @@ This is called a shebang. It tells the system that this script should be run usi
 
     dnf list installed mysql
 
-- Checks if MySQL is already installed on the system using dnf.
+
+- Checks if **MySQL** is already installed on the system using dnf.
 
 - dnf is the default package manager in RHEL/CentOS 8+.
 
 - If the package is installed, it returns exit status 0.
 
+
     if [ $? -ne 0 ]
     then
         echo "MySQL is not installed... going to install it"
+
  
  - $? contains the exit status of the last command.
 
 - If MySQL was not found, we move ahead to install it
 
-    ``dnf install mysql -y``
+
+    dnf install mysql -y
+
+- Checks if MySQL is already installed on the system using dnf.
+
+- dnf is the default package manager in RHEL/CentOS 8+.
+
+- If the package is installed, it returns exit status 0.
 
 
 
@@ -59,15 +73,17 @@ This is called a shebang. It tells the system that this script should be run usi
         exit 1
     fi
 
-Again, we check the exit status:
+- Again, we check the exit status:
 
 - 0 means successful installation.
 
 - Any other number means it failed. So we exit with code 1.
 
+
     else
         echo "MySQL is already installed...Nothing to do"
     fi
+
 
 If MySQL was already installed (dnf list installed mysql was successful), we skip the installation.
 
