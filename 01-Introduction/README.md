@@ -1,4 +1,4 @@
-# 📅 Day 01 - Introduction to Shell Scripting
+# 📅 Day 01 Introduction to Shell Scripting
 
 **📘 Learnings Covered - Day 1: Introduction**
 
