@@ -1,4 +1,4 @@
-# 📅 Day 02 Variables and Data Types
+# 📅 Day 02 - Variables and Data Types
 
 **📘 Learnings Covered - Day 2: Variables and Data Types**
 
