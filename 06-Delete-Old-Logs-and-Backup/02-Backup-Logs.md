@@ -146,13 +146,13 @@ Uses find to get logs older than $DAYS.
 Creates zip with timestamp and archives files using zip -@.
 
 
-  if [ -f "$ZIP_FILE" ]; then
-    while IFS= read -r filepath; do
-      echo "Deleting: $filepath" | tee -a "$LOG_FILE"
-      rm -f "$filepath"
-      VALIDATE $? "Deleting $filepath"
-    done <<< "$FILES"
-  fi
+    if [ -f "$ZIP_FILE" ]; then
+        while IFS= read -r filepath; do
+        echo "Deleting: $filepath" | tee -a "$LOG_FILE"
+        rm -f "$filepath"
+        VALIDATE $? "Deleting $filepath"
+        done <<< "$FILES"
+    fi
 
 
 Deletes each original log file only if zip is created successfully.
