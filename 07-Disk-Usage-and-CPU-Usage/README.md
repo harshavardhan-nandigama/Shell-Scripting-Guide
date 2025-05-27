@@ -84,7 +84,8 @@ fi
 
 
 
-# CPU Usage Monitor — Explanation (Line-by-Line)
+CPU Usage Monitor — Explanation (Line-by-Line)
+
 
 1. `#!/bin/bash`  
    - Specifies Bash shell to run the script.
