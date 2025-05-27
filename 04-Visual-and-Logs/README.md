@@ -1,6 +1,6 @@
 # Day-4 Colors and Logs
 
-📘 Learnings Covered
+📘 **Learnings Covered**
 
 | # |   Topic    |                           Description                                       |
 | - | ---------- | --------------------------------------------------------------------------- |
