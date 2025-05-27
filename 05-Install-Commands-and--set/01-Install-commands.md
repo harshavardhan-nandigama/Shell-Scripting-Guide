@@ -17,13 +17,15 @@ This is called a shebang. It tells the system that this script should be run usi
 - Root users always have a user ID of 0.   
 
 
-    if [ $USERID -ne 0 ]
-    then
-        echo "ERROR:: Please run this script with root access"
-        exit 1
-    else
-        echo "You are running with root access"
-    fi
+
+        if [ $USERID -ne 0 ]
+        then
+            echo "ERROR:: Please run this script with root access"
+            exit 1
+        else
+            echo "You are running with root access"
+        fi
+
 
 
 - -ne means "not equal". If user is not root, we:
