@@ -20,7 +20,7 @@ Whether you’re aiming to automate routine tasks, manage Linux systems efficien
 
     Shell Scripting Guide/
     │
-    ├── 01-Introduction/                   # Day 1: Shell scripting fundamentals & first scripts
+    ├── 01-Introduction/                  # Day 1: Shell scripting fundamentals & first scripts
     ├── 02-Variables-and-Data-Types/      # Day 2: Variables, arrays, and special shell variables
     ├── 03-Conditions-and-Loops/          # Day 3: Control flow with conditions and loops
     ├── 04-Visual-and-Logs/               # Day 4: Adding colors and managing logs for clarity
@@ -50,8 +50,8 @@ Whether you’re aiming to automate routine tasks, manage Linux systems efficien
 ## 🎯 How to Get Started
 
 **1. Clone the repository**
-git clone https://github.com/<your-username>/shell-scripting-guide.git
-cd shell-scripting-guide
+git clone https://github.com/harshavardhan-nandigama/Shell-Scripting-Guide.git
+cd Shell-Scripting-Guide
 
 **2. Start with Day 1:**
 
