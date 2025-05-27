@@ -1,5 +1,5 @@
 
-# 📅 Day 02 - Conditions and Loops
+# 📅 Day 03 - Conditions and Loops
 
 **📘 Learnings Covered - Day 3: Conditions and Loops**
 
