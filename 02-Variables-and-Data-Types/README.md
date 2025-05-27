@@ -1,12 +1,14 @@
-## Shell Scripting – Day 2: Core Concepts
+# 📅 Day 02 - Variables and Data Types
 
-Learn the basics of Shell Scripting with real examples.  
-Day 2 covers:
 
-✅ Variables  
-✅ Special Variables  
-✅ Arrays  
-✅ Data Types
+**📘 Learnings Covered - Day 2: Variables and Data Types**
+
+| # |      Topic        |                        Description                               |
+| - | ----------------- | ---------------------------------------------------------------- |
+| 1 | Variables         | Defining and using variables in scripts                          |
+| 2 | Data Types        | Using integers, strings, and understanding how Bash handles them |
+| 3 | Arrays            | Working with indexed arrays in Bash                              |
+| 4 | Special Variables | Using `$0`, `$1`, `$#`, `$?`, `$@`, and `$*` effectively         |
 
 
 ## 1️⃣ Variables

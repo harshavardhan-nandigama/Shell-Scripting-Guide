@@ -1,4 +1,4 @@
-# Day-4 Colors and Logs
+# Day 4 - Colors and Logs
 
 📘 **Learnings Covered**
 

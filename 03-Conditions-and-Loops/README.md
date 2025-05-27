@@ -1,4 +1,14 @@
-# Conditions & Loops
+
+# 📅 Day 02 - Conditions and Loops
+
+**📘 Learnings Covered - Day 3: Conditions and Loops**
+
+| # |     Topic       |                   Description                           |
+| - | --------------- | ------------------------------------------------------- |
+| 1 | Conditions      | Using `if`, `else`, `elif`, and test commands           |
+| 2 | While Loop      | Executing a block of code repeatedly using `while` loop |
+| 3 | For Loop        | Looping through lists and sequences with `for` loops    |
+| 4 | Case Statements | Pattern matching using `case` statements (if included)  |
 
 This document covers Day 3 of my Shell Scripting learning journey: focusing on conditions and loops with real-world examples. Scripts are explained line-by-line, so even beginners and non-IT learners can understand.
 
