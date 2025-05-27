@@ -18,16 +18,16 @@ Whether you’re aiming to automate routine tasks, manage Linux systems efficien
 
 ## 📂 Repository Structure
 
-Shell Scripting Guide/
-│
-├── 01-Introduction/                   # Day 1: Shell scripting fundamentals & first scripts
-├── 02-Variables-and-Data-Types/      # Day 2: Variables, arrays, and special shell variables
-├── 03-Conditions-and-Loops/          # Day 3: Control flow with conditions and loops
-├── 04-Visual-and-Logs/               # Day 4: Adding colors and managing logs for clarity
-├── 05-Practical-Scripts-Part1/       # Day 5: Essential practical scripts — installs and setups
-├── 06-Practical-Scripts-Part2/       # Day 6: More practical scripts — log cleanup, backups
-├── 07-Monitoring/                    # Day 7: Scripts for system monitoring — CPU and disk usage
-└── README.md                         # This detailed project overview
+    Shell Scripting Guide/
+    │
+    ├── 01-Introduction/                   # Day 1: Shell scripting fundamentals & first scripts
+    ├── 02-Variables-and-Data-Types/      # Day 2: Variables, arrays, and special shell variables
+    ├── 03-Conditions-and-Loops/          # Day 3: Control flow with conditions and loops
+    ├── 04-Visual-and-Logs/               # Day 4: Adding colors and managing logs for clarity
+    ├── 05-Practical-Scripts-Part1/       # Day 5: Essential practical scripts — installs and setups
+    ├── 06-Practical-Scripts-Part2/       # Day 6: More practical scripts — log cleanup, backups
+    ├── 07-Monitoring/                    # Day 7: Scripts for system monitoring — CPU and disk usage
+    └── README.md                         # This detailed project overview
 
 
 ## 🔥 What You’ll Learn
@@ -96,7 +96,7 @@ Contributions are highly encouraged! Feel free to:
 
 ## License
 
-This project is licensed under the MIT License — free to use and share.
+This project is licensed under the MIT License free to use and share.
 
 
 Thank you for visiting!
