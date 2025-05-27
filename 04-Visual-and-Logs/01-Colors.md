@@ -1,4 +1,4 @@
-# 🎨 Shell Scripting: Using Colors in Terminal Output
+# 🎨 Colors in Terminal Output
 
 colors in shell scripts to make output more readable and attractive. Colors are often used in real-world scripts to highlight success, errors, warnings, and guide users more effectively. It's very useful in DevOps, Linux administration, and automation tasks.
 
@@ -31,7 +31,7 @@ We can print colored text in the terminal using ANSI escape sequences like:
 | Reset   | 0    | `\e[0m`  |
 
 
-## xample 1: Basic Color Usage
+## Example 1: Basic Color Usage
 
     #!/bin/bash
 
