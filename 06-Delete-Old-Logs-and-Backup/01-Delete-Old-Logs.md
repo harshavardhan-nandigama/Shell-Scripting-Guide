@@ -4,11 +4,11 @@ A production-friendly shell script that safely deletes .log files older than 14 
 
 **Script Features**
 
-✅ Root access verification
-✅ Deletes only .log files older than 14 days
-✅ Color-coded and timestamped logging
-✅ Reusable validation function
-✅ Handles spaces and special characters in filenames
+- Root access verification
+- Deletes only .log files older than 14 days
+- Color-coded and timestamped logging
+- Reusable validation function
+- Handles spaces and special characters in filenames
 
 ## Full Script with Inline Explanation
 
@@ -55,7 +55,7 @@ A production-friendly shell script that safely deletes .log files older than 14 
 
 🔹 If not run as root, it exits with a clear error message.
 
-# ✅ Validation Function
+**✅ Validation Function**
 
     VALIDATE(){
         if [ $1 -eq 0 ]; then
