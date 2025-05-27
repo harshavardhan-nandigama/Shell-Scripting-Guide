@@ -1,0 +1,1 @@
+# Shell Scripting Guide — Master Practical Shell Scripting for DevOps & Automation
