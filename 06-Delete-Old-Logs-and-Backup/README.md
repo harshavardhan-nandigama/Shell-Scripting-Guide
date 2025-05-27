@@ -7,7 +7,6 @@
 | 1 | Delete Old Logs | Delete logs older than specific days using `find` command |
 | 2 | Backup Scripts  | Create simple backup using `tar` and `rsync` commands     |
 
-# Log Management Scripts – Clean, Backup & Automate Like a Pro
 
 Two production-ready Bash scripts for efficient `.log` file **cleanup** and **backup**, built with best practices in mind: **safe deletion, automation, color-coded logging, error handling, and root access validation**.
 
