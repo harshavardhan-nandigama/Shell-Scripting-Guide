@@ -4,11 +4,11 @@ This script demonstrates how to install a package (e.g., MySQL) using dnf in a s
 
 ## Script: Install MySQL with Validation
 
-    #!/bin/bash
+         #!/bin/bash
 
 This is called a shebang. It tells the system that this script should be run using the Bash shell.
 
-    USERID=$(id -u)
+            USERID=$(id -u)
 
 - id -u returns the numeric user ID of the current user.
 
@@ -37,7 +37,7 @@ This is called a shebang. It tells the system that this script should be run usi
 - If the user is root, we proceed.
 
 
-    dnf list installed mysql
+        dnf list installed mysql
 
 
 - Checks if **MySQL** is already installed on the system using dnf.
@@ -47,9 +47,9 @@ This is called a shebang. It tells the system that this script should be run usi
 - If the package is installed, it returns exit status 0.
 
 
-    if [ $? -ne 0 ]
-    then
-        echo "MySQL is not installed... going to install it"
+            if [ $? -ne 0 ]
+            then
+                echo "MySQL is not installed... going to install it"
 
  
  - $? contains the exit status of the last command.
@@ -57,7 +57,9 @@ This is called a shebang. It tells the system that this script should be run usi
 - If MySQL was not found, we move ahead to install it
 
 
-    dnf install mysql -y
+
+             dnf install mysql -y
+
 
 - Checks if MySQL is already installed on the system using dnf.
 
@@ -67,13 +69,13 @@ This is called a shebang. It tells the system that this script should be run usi
 
 
 
-    if [ $? -eq 0 ]
-    then
-        echo "Installing MySQL is ... SUCCESS"
-    else
-        echo "Installing MySQL is ... FAILURE"
-        exit 1
-    fi
+        if [ $? -eq 0 ]
+        then
+            echo "Installing MySQL is ... SUCCESS"
+        else
+            echo "Installing MySQL is ... FAILURE"
+            exit 1
+        fi
 
 - Again, we check the exit status:
 
@@ -82,29 +84,29 @@ This is called a shebang. It tells the system that this script should be run usi
 - Any other number means it failed. So we exit with code 1.
 
 
-    else
-        echo "MySQL is already installed...Nothing to do"
-    fi
+        else
+            echo "MySQL is already installed...Nothing to do"
+        fi
 
 
 If MySQL was already installed (dnf list installed mysql was successful), we skip the installation.
 
 ## Basic Script: Install Multiple Packages
 
-    #!/bin/bash
+        #!/bin/bash
 
-    PACKAGES=("mysql" "git" "wget")
+        PACKAGES=("mysql" "git" "wget")
 
-    for pkg in "${PACKAGES[@]}"
-    do
-        if ! dnf list installed "$pkg" &>/dev/null
-        then
-            echo "$pkg is not installed. Installing..."
-            dnf install -y "$pkg"
-        else
-            echo "$pkg is already installed."
-        fi
-    done
+        for pkg in "${PACKAGES[@]}"
+        do
+            if ! dnf list installed "$pkg" &>/dev/null
+            then
+                echo "$pkg is not installed. Installing..."
+                dnf install -y "$pkg"
+            else
+                echo "$pkg is already installed."
+            fi
+        done
 
 - Uses an array to loop through multiple package names.
 
